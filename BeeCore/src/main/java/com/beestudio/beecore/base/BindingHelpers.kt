@@ -91,3 +91,10 @@ internal fun <VM : AndroidViewModel,V : ViewBinding> BaseFragment<VM, V>.getBind
 ): V {
     return findClass().getBinding(inflater, container)
 }
+
+internal fun <V : ViewBinding> BaseFragmentBinding<V>.getBinding(
+    inflater: LayoutInflater,
+    container: ViewGroup?
+): V {
+    return findClass().getBinding(inflater, container)
+}

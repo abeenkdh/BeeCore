@@ -58,5 +58,4 @@ dependencies {
     annotationProcessor "androidx.lifecycle:lifecycle-compiler:$lifecycle_version"
 
     implementation 'androidx.annotation:annotation:1.2.0'
-    compileOnly 'androidx.recyclerview:recyclerview:1.2.0'
 }
